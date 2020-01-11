@@ -1,0 +1,13 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color:#f4f4f4 !important
+}
+.ant-layout{
+    height: 100%;
+}
+#ms-login-btn{
+    width: 100%;
+}

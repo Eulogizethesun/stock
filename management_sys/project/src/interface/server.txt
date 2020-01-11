@@ -1,0 +1,37 @@
+change password:{
+    0: success
+    -1: wrong password
+    -2: same password
+}
+
+login:{
+    0: success
+    -1: wrong password
+}
+
+username, authority, own_authority
+=> {
+    0: success
+    -1: not exist
+    -2: invalid
+    -3: dont have right
+}
+
+username, authority, own_authority
+=> {
+    0: success
+    -1: exist
+    -2: invalid
+    -3: dont have right
+}
+
+-1 exist
+-2 auth
+
+
+0 
+-2 no atuh
+
+-3 no auth
+-1 no acc
+-2 

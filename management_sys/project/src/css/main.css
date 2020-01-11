@@ -1,0 +1,40 @@
+body{
+  background-color:#f4f4f4 !important
+}
+.ms-container{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+}
+
+  #ms-toolBar{
+    height:50px;
+    width:100vw;
+    background:#c7c7c7;
+    flex-shrink:0;
+  }
+
+  #ms-menu-mainFrame-container{
+    height:100vh;
+    display:flex;
+    flex-direction:row;
+    background-color: #f1f1f1;
+  }
+
+      #ms-mainFrame{
+        flex-grow:1;
+        width:80vw;
+        float: right;
+        background:white;
+        flex-direction:column;
+      }
+
+      #ms-menu{
+        background:#f1f1f1;
+        color: white;
+        flex-grow: 1;
+        width:20.2vw;
+        display:flex;
+        float: right;
+        flex-direction:row;
+      }
